@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bbi4lpq4ekkt1"]
+
+[ext_resource type="TileSet" uid="uid://can76bysmquq3" path="res://Data/tilemaap.tres" id="1_ccmxu"]
+
+[node name="Room1" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+texture_filter = 1
+tile_set = ExtResource("1_ccmxu")
+format = 2
+layer_0/tile_data = PackedInt32Array(0, 1179648, 3, 1, 1245184, 2, 262144, 1310720, 0, 393218, 1310720, 0, 393220, 1179648, 0, 393221, 1245184, 0, 327686, 1179648, 1, 262150, 1179648, 0, 131078, 1179648, 2, 65542, 1179648, 1, 5, 1245184, 2, 4, 1179648, 2, 2, 1310720, 2, 65536, 1310720, 1, 131072, 1310720, 2, 327680, 1310720, 1, 393216, 1179648, 4, 393217, 1245184, 0, 393222, 1245184, 4, 196611, 1245184, 1)

@@ -1,0 +1,36 @@
+extends CharacterBody2D
+
+const max_speed = 200
+const acceleration = 800
+const friction = 700
+
+var input = Vector2.ZERO
+
+func _physics_process(delta):
+	player_movement(delta)
+
+#Esta funcion hace que se mueva el perosaje con los controles
+
+func get_input():
+	input.x = int(Input.is_action_pressed("ui_right")) - int(Input.is_action_pressed("ui_left"))
+	input.y = int(Input.is_action_pressed("ui_down")) - int(Input.is_action_pressed("ui_up"))
+	return input.normalized()
+	
+#esta funcion hace que el personaje cuando se deja de mover pare lentamente
+
+func player_movement(delta):
+	input = get_input()
+	if input == Vector2.ZERO:
+		if velocity.length() > (friction * delta):
+			velocity -= velocity.normalized() * (friction * delta)
+		else:
+			velocity = Vector2.ZERO
+	else:
+		velocity += (input * acceleration * delta)
+		velocity = velocity.limit_length(max_speed)
+	if velocity != Vector2.ZERO:
+		$GolemAnimation.play ("Walk")
+	else:
+		$GolemAnimation.play ("RESET")
+		
+	move_and_slide()

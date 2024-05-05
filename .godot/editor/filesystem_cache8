@@ -1,0 +1,25 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1714947027
+icon.svg::CompressedTexture2D::1148396242033866007::1713293136::1713293150::1::::<><>::
+tilemaap.tres::TileSet::4801676672001740172::1714944753::0::1::::<><>::uid://bqjiupho8d325::::res://Art/tileset_legacy.png
+::res://Art/::1714947000
+GOLEM.png::CompressedTexture2D::2563427021944587078::1713295070::1713295070::1::::<><>::
+Map.tres::TileSet::2732941636113438468::1714944752::0::1::::<><>::uid://d28w6vijk8huw::::res://Art/undefined - Imgur.png
+tileset_legacy.png::CompressedTexture2D::3528543832852616140::1713293828::1713293829::1::::<><>::
+::res://Data/::1714947027
+::res://Scenes/::1713629868
+::res://Scenes/Base/::1714947020
+level_generator.tscn::PackedScene::5703543233304040363::1713629855::0::1::::<><>::res://Scripts/Level.gd<>uid://be64fc1lp4lqa::::res://Art/Map.tres
+Map.tscn::PackedScene::3550539018018586512::1714946842::0::1::::<><>::res://Scripts/Level.gd<>uid://be64fc1lp4lqa::::res://Art/Map.tres
+player.tscn::PackedScene::7312523321842177776::1714946519::0::1::::<><>::res://Scripts/Golem.gd<>uid://bcr0jeokm1vqc::::res://Art/GOLEM.png
+::res://Scenes/Base/rooms/::1714947020
+boss.tscn::PackedScene::8384427514395833083::1714947031::0::1::::<><>::uid://can76bysmquq3::::res://tilemaap.tres
+room_1.tscn::PackedScene::2474905799777293688::1714947031::0::1::::<><>::uid://can76bysmquq3::::res://tilemaap.tres
+room_2.tscn::PackedScene::1910937311475646961::1714947031::0::1::::<><>::uid://can76bysmquq3::::res://tilemaap.tres
+room_3.tscn::PackedScene::8145486097536528539::1714947031::0::1::::<><>::uid://can76bysmquq3::::res://tilemaap.tres
+room_4.tscn::PackedScene::5033331202765504514::1714947031::0::1::::<><>::uid://can76bysmquq3::::res://tilemaap.tres
+::res://Scripts/::1714946842
+dungeon_gen.gd::GDScript::-1::1713910300::0::1::::<>Node<>::
+Golem.gd::GDScript::-1::1714253139::0::1::::<>CharacterBody2D<>::
+Level.gd::GDScript::-1::1714946842::0::1::::<>Node2D<>::
+Walker.gd::GDScript::-1::1714946842::0::1::::Walker<>Node<>::

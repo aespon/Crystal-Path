@@ -1,0 +1,12 @@
+res://Scenes/Base/Map.tscn
+res://Art/Map.tres
+res://Scenes/Base/tilemaap.tres
+res://Scenes/Base/player.tscn
+res://Scenes/Base/rooms/room_2.tscn
+res://Scenes/Base/rooms/room_1.tscn
+res://Scenes/Base/rooms/room_3.tscn
+res://Scenes/Base/rooms/room_4.tscn
+res://Scenes/Base/rooms/boss.tscn
+res://Scripts/Level.gd
+res://Scripts/Walker.gd
+res://Scenes/Base/level_generator.tscn
