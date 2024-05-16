@@ -1,0 +1,13 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1715023326
+bullets.gd::GDScript::-1::1714961073::0::1::::<>Area2D<>::
+bullets.tscn::PackedScene::4892162294591000375::1714977465::0::1::::<><>::res://bullets.gd<>uid://qdgkj0tpg36e::::res://icon.svg
+Enemy.gd::GDScript::-1::1714977073::0::1::::Enemy<>CharacterBody2D<>::
+enemy.tscn::PackedScene::8845783169434511984::1714977465::0::1::::<><>::res://Enemy.gd<>uid://qdgkj0tpg36e::::res://icon.svg
+icon.svg::CompressedTexture2D::1129597303580194258::1714954680::1714954686::1::::<><>::
+Jugador.gd::GDScript::-1::1714969420::0::1::::<>CharacterBody2D<>::
+jugador.tscn::PackedScene::6536078073950592127::1714977465::0::1::::<><>::res://Jugador.gd<>uid://qdgkj0tpg36e::::res://icon.svg
+test_escena.tscn::PackedScene::196368751723751052::1714977465::0::1::::<><>::uid://c0eeisde34svf::::res://jugador.tscn<>uid://hqvqj5gw8ubg::::res://turret.tscn<>uid://bajxdgal0ghki::::res://wall.tscn<>uid://dya70yofitcfg::::res://enemy.tscn
+turret.gd::GDScript::-1::1714969420::0::1::::<>Node2D<>::
+turret.tscn::PackedScene::525656098439373088::1714977465::0::1::::<><>::res://turret.gd<>uid://cbx2g0fswgqdb::::res://bullets.tscn<>uid://qdgkj0tpg36e::::res://icon.svg
+wall.tscn::PackedScene::2406402247368525592::1714977465::0::1::::<><>::uid://qdgkj0tpg36e::::res://icon.svg

@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bbi4lpq4ekkt1"]
 
-[ext_resource type="TileSet" uid="uid://can76bysmquq3" path="res://Data/tilemaap.tres" id="1_ccmxu"]
+[ext_resource type="TileSet" uid="uid://ps17j07gals4" path="res://Data/tilemaap.tres" id="1_ccmxu"]
 
 [node name="Room1" type="Node2D"]
 

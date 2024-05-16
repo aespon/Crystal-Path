@@ -1,0 +1,37 @@
+[gd_scene load_steps=7 format=3 uid="uid://d4a37hvw7atn3"]
+
+[ext_resource type="Script" path="res://PersonajePrincipal/player.gd" id="1_mugqn"]
+[ext_resource type="Texture2D" uid="uid://qmj6ht1057ep" path="res://icon.svg" id="4_ehib6"]
+[ext_resource type="Script" path="res://PersonajePrincipal/ataqueFisico.gd" id="5_fjiry"]
+[ext_resource type="Script" path="res://PersonajePrincipal/vida y energia.gd" id="6_n2o0k"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_c2rle"]
+size = Vector2(130, 128)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_bf26o"]
+radius = 108.665
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_mugqn")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(474, 285)
+texture = ExtResource("4_ehib6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(474, 285)
+shape = SubResource("RectangleShape2D_c2rle")
+
+[node name="Marker2D" type="Marker2D" parent="."]
+position = Vector2(471, 306)
+
+[node name="Area2D" type="Area2D" parent="."]
+script = ExtResource("5_fjiry")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+visible = false
+position = Vector2(474, 285)
+shape = SubResource("CircleShape2D_bf26o")
+
+[node name="vida y energia" type="Node2D" parent="."]
+script = ExtResource("6_n2o0k")

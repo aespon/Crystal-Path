@@ -1,8 +1,8 @@
 extends CharacterBody2D
 
 const max_speed = 200
-const acceleration = 800
-const friction = 700
+const acceleration = 400
+const friction = 900
 
 var input = Vector2.ZERO
 
@@ -34,3 +34,6 @@ func player_movement(delta):
 		$GolemAnimation.play ("RESET")
 		
 	move_and_slide()
+
+func dead():
+		get_tree().reload_current_scene()

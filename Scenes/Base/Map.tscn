@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://bqt54g4w8moom"]
 
 [ext_resource type="Script" path="res://Scripts/Level.gd" id="1_b17r2"]
-[ext_resource type="TileSet" uid="uid://be64fc1lp4lqa" path="res://Art/Map.tres" id="2_ncfm6"]
+[ext_resource type="TileSet" uid="uid://ps17j07gals4" path="res://Data/tilemaap.tres" id="2_ncfm6"]
 
 [node name="Game" type="Node2D"]
 

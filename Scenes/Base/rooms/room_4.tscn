@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://cdygh2lqcw11w"]
+[gd_scene load_steps=3 format=3 uid="uid://cdygh2lqcw11w"]
 
-[ext_resource type="TileSet" uid="uid://can76bysmquq3" path="res://Data/tilemaap.tres" id="1_bj1pt"]
+[ext_resource type="TileSet" uid="uid://ps17j07gals4" path="res://Data/tilemaap.tres" id="1_bj1pt"]
+[ext_resource type="PackedScene" uid="uid://doc270023clpu" path="res://Scenes/Base/Enemies/turret.tscn" id="2_m22e5"]
 
 [node name="room_4" type="Node2D"]
 
@@ -8,4 +9,8 @@
 texture_filter = 1
 tile_set = ExtResource("1_bj1pt")
 format = 2
-layer_0/tile_data = PackedInt32Array(65536, 1310720, 1, 0, 1179648, 3, 1, 1245184, 2, 393222, 1245184, 4, 327686, 1179648, 1, 262150, 1179648, 0, 196614, 1441792, 3, 131078, 1179648, 2, 65542, 1179648, 1, 6, 1245184, 3, 5, 1245184, 2, 393220, 1179648, 0, 4, 1179648, 2, 393219, 1441792, 3, 3, 1441792, 3, 393218, 1310720, 0, 2, 1310720, 2, 393217, 1245184, 0, 393216, 1179648, 4, 327680, 1310720, 1, 262144, 1310720, 0, 196608, 1441792, 3, 131072, 1310720, 2, 393221, 1245184, 0, 131074, 1572864, 1, 262148, 1572864, 1, 262146, 1572864, 1, 131076, 1572864, 1)
+layer_0/tile_data = PackedInt32Array(65536, 1310720, 1, 0, 1179648, 3, 1, 1245184, 2, 393222, 1245184, 4, 327686, 1179648, 1, 262150, 1179648, 0, 196614, 1441792, 3, 131078, 1179648, 2, 65542, 1179648, 1, 6, 1245184, 3, 5, 1245184, 2, 393220, 1179648, 0, 4, 1179648, 2, 393219, 1441792, 3, 3, 1441792, 3, 393218, 1310720, 0, 2, 1310720, 2, 393217, 1245184, 0, 393216, 1179648, 4, 327680, 1310720, 1, 262144, 1310720, 0, 196608, 1441792, 3, 131072, 1310720, 2, 393221, 1245184, 0)
+
+[node name="turret" parent="." instance=ExtResource("2_m22e5")]
+position = Vector2(56, 56)
+scale = Vector2(0.205, 0.205)

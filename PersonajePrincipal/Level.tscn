@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://b0pxx8bn6c2gu"]
+
+[ext_resource type="PackedScene" uid="uid://d4a37hvw7atn3" path="res://personaje.tscn" id="1_3cmy2"]
+[ext_resource type="PackedScene" uid="uid://dnr0pthfug3us" path="res://bala.tscn" id="2_ripu1"]
+
+[node name="nivel" type="Node2D"]
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_3cmy2")]
+
+[node name="bala" parent="." instance=ExtResource("2_ripu1")]
+visible = false

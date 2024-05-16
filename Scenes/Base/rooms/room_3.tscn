@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://doby73v62cfbf"]
 
-[ext_resource type="TileSet" uid="uid://can76bysmquq3" path="res://Data/tilemaap.tres" id="1_5a65p"]
+[ext_resource type="TileSet" uid="uid://ps17j07gals4" path="res://Data/tilemaap.tres" id="1_5a65p"]
 
 [node name="Room_3" type="Node2D"]
 
