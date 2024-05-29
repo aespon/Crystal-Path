@@ -1,0 +1,38 @@
+[gd_scene load_steps=6 format=3 uid="uid://bkbnqri0ayr6j"]
+
+[ext_resource type="Script" path="res://Scripts/enemy.gd" id="1_7hymj"]
+[ext_resource type="Texture2D" uid="uid://qmj6ht1057ep" path="res://icon.svg" id="2_rfg46"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_342v3"]
+radius = 25.0799
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h2nsn"]
+size = Vector2(176, 192)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hk5c1"]
+size = Vector2(105.5, 113.5)
+
+[node name="Enemy" type="CharacterBody2D"]
+motion_mode = 1
+script = ExtResource("1_7hymj")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, 4.76837e-07)
+scale = Vector2(0.40625, 0.390625)
+texture = ExtResource("2_rfg46")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_342v3")
+
+[node name="deagro" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="deagro"]
+shape = SubResource("RectangleShape2D_h2nsn")
+
+[node name="agro" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="agro"]
+shape = SubResource("RectangleShape2D_hk5c1")
+
+[connection signal="area_exited" from="deagro" to="." method="_on_deagro_area_exited"]
+[connection signal="area_entered" from="agro" to="." method="_on_area_2d_area_entered"]

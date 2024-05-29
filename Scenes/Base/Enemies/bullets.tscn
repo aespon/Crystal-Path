@@ -23,4 +23,5 @@ scale = Vector2(3.60556, 1.88889)
 position = Vector2(24.2778, 7.11111)
 shape = SubResource("RectangleShape2D_53grf")
 
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
 [connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_screen_exited"]

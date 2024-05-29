@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://drpqkcnesu1xf"]
 
 [ext_resource type="TileSet" uid="uid://ps17j07gals4" path="res://Data/tilemaap.tres" id="1_cqpr8"]
-[ext_resource type="PackedScene" uid="uid://bkbnqri0ayr6j" path="res://enemy.tscn" id="2_dcfq2"]
+[ext_resource type="PackedScene" uid="uid://bkbnqri0ayr6j" path="res://Scenes/Base/Enemies/enemy.tscn" id="2_dcfq2"]
 
 [node name="Boss" type="Node2D"]
 

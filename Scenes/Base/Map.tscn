@@ -4,6 +4,7 @@
 [ext_resource type="TileSet" uid="uid://ps17j07gals4" path="res://Data/tilemaap.tres" id="2_ncfm6"]
 
 [node name="Game" type="Node2D"]
+metadata/_edit_horizontal_guides_ = [-192.0]
 
 [node name="Level2" type="Node2D" parent="."]
 script = ExtResource("1_b17r2")

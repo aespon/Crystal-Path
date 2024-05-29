@@ -1,8 +1,9 @@
-res://
-res://Scenes
+res://Scripts
+D:/Programacion/Godot/Prototypes/Rougelike/Scripts
 res://Data
 res://PersonajePrincipal
-res://Scripts
+res://
+res://Scenes
 res://Scenes/Base/rooms
 res://Scenes/Base
 res://Art

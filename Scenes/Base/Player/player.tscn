@@ -1,7 +1,18 @@
-[gd_scene load_steps=7 format=3 uid="uid://dcgigqq0w32mm"]
+[gd_scene load_steps=9 format=3 uid="uid://dcgigqq0w32mm"]
 
 [ext_resource type="Script" path="res://Scripts/Golem.gd" id="1_682lw"]
-[ext_resource type="Texture2D" uid="uid://bcr0jeokm1vqc" path="res://Art/GOLEM.png" id="2_k8tci"]
+[ext_resource type="Texture2D" uid="uid://qmj6ht1057ep" path="res://icon.svg" id="2_usiwj"]
+
+[sub_resource type="Gradient" id="Gradient_jk5m5"]
+offsets = PackedFloat32Array(0.11039, 0.753247)
+colors = PackedColorArray(0.329412, 0.737255, 0.32549, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_8550q"]
+gradient = SubResource("Gradient_jk5m5")
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.8, 0.9)
+metadata/_snap_enabled = true
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dudkp"]
 size = Vector2(6, 8)
@@ -45,13 +56,16 @@ _data = {
 }
 
 [node name="Player" type="Node2D"]
-light_mask = 3
-visibility_layer = 3
+light_mask = 7
+visibility_layer = 7
 
 [node name="Golem" type="CharacterBody2D" parent="." groups=["Jugador"]]
 collision_layer = 3
 collision_mask = 3
 script = ExtResource("1_682lw")
+
+[node name="PointLight2D" type="PointLight2D" parent="Golem"]
+texture = SubResource("GradientTexture2D_8550q")
 
 [node name="GolemColission" type="CollisionShape2D" parent="Golem"]
 shape = SubResource("RectangleShape2D_dudkp")
@@ -63,9 +77,15 @@ libraries = {
 
 [node name="Sprite2D" type="Sprite2D" parent="Golem"]
 texture_filter = 1
-position = Vector2(-2.86102e-06, 0)
-scale = Vector2(0.475, 0.475)
-texture = ExtResource("2_k8tci")
+position = Vector2(0, 0.15)
+scale = Vector2(0.046875, 0.0601562)
+texture = ExtResource("2_usiwj")
 
 [node name="Camera2D" type="Camera2D" parent="Golem"]
 zoom = Vector2(5.32, 5.32)
+
+[node name="aggravete" type="Area2D" parent="Golem"]
+
+[node name="GolemColission" type="CollisionShape2D" parent="Golem/aggravete"]
+visible = false
+shape = SubResource("RectangleShape2D_dudkp")

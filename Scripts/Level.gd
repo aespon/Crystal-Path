@@ -5,11 +5,11 @@ var borders = Rect2(1, 1, 20, 10)
 
 
 #@onready var tileMap = $TileMap
-@onready var room2 = [ 
-load("res://Scenes/Base/rooms/room_2.tscn"),
-load("res://Scenes/Base/rooms/room_3.tscn"),
-load("res://Scenes/Base/rooms/room_4.tscn")]
-@onready var play = load("res://Scenes/Base/player.tscn")
+@onready var room2 = [ load("res://Scenes/Base/rooms/room_2.tscn"), 
+load("res://Scenes/Base/rooms/room_3.tscn"), 
+load("res://Scenes/Base/rooms/room_4.tscn")
+]
+@onready var play = load("res://Scenes/Base/Player/Personaje.tscn")
 @onready var room1 = load("res://Scenes/Base/rooms/room_1.tscn")
 @onready var boss = load("res://Scenes/Base/rooms/boss.tscn")
 
@@ -40,6 +40,7 @@ func generate_level():
 		if (a== 35):
 			var player = play.instantiate()
 			player.position = Vector2(location.x * 103, location.y * 120)
+			player.z_index = 1
 			add_child(player)
 			var rooms1 = room1.instantiate()
 			rooms1.position = Vector2(location*100)

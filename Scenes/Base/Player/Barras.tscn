@@ -1,0 +1,41 @@
+[gd_scene load_steps=6 format=3 uid="uid://c4rbx18kxm8qa"]
+
+[ext_resource type="Script" path="res://Scripts/BarraVida.gd" id="1_jpj70"]
+[ext_resource type="Script" path="res://Scripts/energia.gd" id="2_s1xhr"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1mmpo"]
+bg_color = Color(0.160784, 0.160784, 0.160784, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xfj1q"]
+bg_color = Color(0.941176, 0.027451, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j6qvs"]
+bg_color = Color(0, 0, 1, 1)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="vida" type="ProgressBar" parent="." groups=["BarraVida"]]
+offset_left = -130.0
+offset_top = 5.0
+offset_right = 137.0
+offset_bottom = 36.0
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_outline_color = Color(0.741176, 0, 0, 1)
+theme_override_styles/background = SubResource("StyleBoxFlat_1mmpo")
+theme_override_styles/fill = SubResource("StyleBoxFlat_xfj1q")
+max_value = 1000.0
+value = 1000.0
+script = ExtResource("1_jpj70")
+
+[node name="energia" type="ProgressBar" parent="." groups=["BarraEnergia"]]
+offset_left = -130.0
+offset_top = -38.0
+offset_right = 137.0
+offset_bottom = -7.0
+theme_override_colors/font_color = Color(0, 0, 0, 0)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 0)
+theme_override_styles/background = SubResource("StyleBoxFlat_1mmpo")
+theme_override_styles/fill = SubResource("StyleBoxFlat_j6qvs")
+max_value = 200.0
+value = 200.0
+script = ExtResource("2_s1xhr")

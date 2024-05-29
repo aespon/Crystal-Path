@@ -7,7 +7,8 @@ extends Node2D
 var Jugador
  
 func _ready():
-	Jugador=get_tree().get_nodes_in_group("Jugador")[0]
+	add_to_group("Mobs")
+	Jugador=get_tree().get_nodes_in_group("player")[0]
 
 func _physics_process(_delta):
 	_aim()
