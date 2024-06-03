@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://c4rbx18kxm8qa"]
 
-[ext_resource type="Script" path="res://Scripts/BarraVida.gd" id="1_jpj70"]
-[ext_resource type="Script" path="res://Scripts/energia.gd" id="2_s1xhr"]
+[ext_resource type="Script" path="res://Scripts/Main Characeter/BarraVida.gd" id="1_jpj70"]
+[ext_resource type="Script" path="res://Scripts/Main Characeter/energia.gd" id="2_s1xhr"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1mmpo"]
 bg_color = Color(0.160784, 0.160784, 0.160784, 1)

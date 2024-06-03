@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://cni3r2pv5iw0b"]
 
-[ext_resource type="Script" path="res://Scripts/Level.gd" id="1_t6n6m"]
+[ext_resource type="Script" path="res://Scripts/GenLevel/Level.gd" id="1_t6n6m"]
 [ext_resource type="TileSet" path="res://Data/Map.tres" id="2_yxs32"]
 
 [node name="Level2" type="Node2D"]

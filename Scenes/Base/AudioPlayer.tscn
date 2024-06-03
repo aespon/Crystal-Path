@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://7x16v0qlodyw"]
+
+[ext_resource type="AudioStream" uid="uid://dru5865p6yj8f" path="res://Art/Music/Crystal Caves v1_2.mp3" id="1_gy0qg"]
+[ext_resource type="Script" path="res://Scripts/Global/AudioPlayer.gd" id="2_v6s4w"]
+
+[node name="AudioPlayer" type="AudioStreamPlayer"]
+stream = ExtResource("1_gy0qg")
+volume_db = -1.0
+script = ExtResource("2_v6s4w")

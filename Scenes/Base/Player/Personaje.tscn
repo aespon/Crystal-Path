@@ -1,9 +1,9 @@
 [gd_scene load_steps=11 format=3 uid="uid://d4a37hvw7atn3"]
 
-[ext_resource type="Script" path="res://Scripts/player.gd" id="1_mugqn"]
+[ext_resource type="Script" path="res://Scripts/Main Characeter/player.gd" id="1_mugqn"]
 [ext_resource type="Texture2D" uid="uid://qmj6ht1057ep" path="res://icon.svg" id="2_2txo6"]
-[ext_resource type="Script" path="res://Scripts/disparo.gd" id="2_q7g8p"]
-[ext_resource type="Script" path="res://Scripts/pegar.gd" id="5_oxacj"]
+[ext_resource type="Script" path="res://Scripts/Main Characeter/disparo.gd" id="2_q7g8p"]
+[ext_resource type="Script" path="res://Scripts/Main Characeter/pegar.gd" id="5_oxacj"]
 [ext_resource type="PackedScene" uid="uid://c4rbx18kxm8qa" path="res://Scenes/Base/Player/Barras.tscn" id="5_ta68t"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_c2rle"]
@@ -77,7 +77,6 @@ texture_scale = 4.25
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Die"]
 position = Vector2(1.12587e-05, 1.1762e-05)
-scale = Vector2(1, 1)
 shape = SubResource("RectangleShape2D_yjsdm")
 debug_color = Color(0.929412, 0.203922, 0.427451, 0.419608)
 

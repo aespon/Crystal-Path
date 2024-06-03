@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://dcgigqq0w32mm"]
 
-[ext_resource type="Script" path="res://Scripts/Golem.gd" id="1_682lw"]
+[ext_resource type="Script" path="res://Scripts/Main Characeter/Golem.gd" id="1_682lw"]
 [ext_resource type="Texture2D" uid="uid://qmj6ht1057ep" path="res://icon.svg" id="2_usiwj"]
 
 [sub_resource type="Gradient" id="Gradient_jk5m5"]

@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://doc270023clpu"]
 
-[ext_resource type="Script" path="res://Scripts/Turret.gd" id="1_ovdhf"]
+[ext_resource type="Script" path="res://Scripts/Enemies/Turret.gd" id="1_ovdhf"]
 [ext_resource type="PackedScene" uid="uid://c7bd8sgybcou7" path="res://Scenes/Base/Enemies/bullets.tscn" id="2_purvd"]
 [ext_resource type="Texture2D" uid="uid://qmj6ht1057ep" path="res://icon.svg" id="3_owerc"]
 

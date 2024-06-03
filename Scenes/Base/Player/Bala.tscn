@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://dnr0pthfug3us"]
 
-[ext_resource type="Script" path="res://Scripts/bala.gd" id="1_fgc2d"]
+[ext_resource type="Script" path="res://Scripts/Main Characeter/bala.gd" id="1_jh5fj"]
 [ext_resource type="Texture2D" uid="uid://b4igyjlrm7lnb" path="res://Art/bala.png" id="2_1qby3"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_nmc3u"]
@@ -12,7 +12,7 @@ size = Vector2(660, 200)
 [node name="Bala" type="CharacterBody2D" groups=["bala"]]
 collision_layer = 9
 collision_mask = 2
-script = ExtResource("1_fgc2d")
+script = ExtResource("1_jh5fj")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_nmc3u")
