@@ -4,22 +4,26 @@ var borders = Rect2(1, 1, 20, 10)
 
 
 
-#@onready var tileMap = $TileMap
-@onready var room2 = [ load("res://Scenes/Base/rooms/room_2.tscn"), 
-load("res://Scenes/Base/rooms/room_3.tscn"), 
-load("res://Scenes/Base/rooms/room_4.tscn")
-]
+#ROOMS
+##RANDOM ROOMS
+@onready var room2 = [ 
+load("res://Scenes/Base/rooms/proof_room2.tscn"),
+load("res://Scenes/Base/rooms/proof_room3.tscn"),
+load("res://Scenes/Base/rooms/proof_room1.tscn")]
+## ROOM INICIAL
+@onready var room1 = load("res://Scenes/Base/rooms/proof_room.tscn")
+##ROOM BOSS
+@onready var boss = load("res://Scenes/Base/rooms/proof_boss.tscn")
+##JUGADOR
 @onready var play = load("res://Scenes/Base/Player/Personaje.tscn")
-@onready var room1 = load("res://Scenes/Base/rooms/room_1.tscn")
-@onready var boss = load("res://Scenes/Base/rooms/boss.tscn")
 
 
 func _ready():
-	AudioPlayer.volume = -9
+	AudioPlayer.volume = -10
 	AudioPlayer._play_music_level()
 	randomize()
 	generate_level()
-	
+	Engine.time_scale = 1
 
 #generacion de nivel (visual)
 func generate_level():
@@ -62,11 +66,8 @@ func generate_level():
 				a = a - 1
 				print(a)
 
-		
 
 func reload_level():
 	get_tree().reload_current_scene()
 
-func _input(event):
-	if event.is_action_pressed("ui_accept"):
-		reload_level()
+

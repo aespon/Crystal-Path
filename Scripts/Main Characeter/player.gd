@@ -1,9 +1,13 @@
 extends CharacterBody2D
 
-var speed: float = 20.0 
-var max_speed: float = 80.0 
+var speed: float = 10.0 
+var max_speed: float = 40.0 
 const acceleration = 600
 const friction = 1100
+
+@onready var paused = $Camera2D/Paused
+
+var pause = false
 
 var herido = false
 
@@ -55,3 +59,16 @@ func muerte():
 	if Global.life == 0:
 		get_tree().reload_current_scene()
 
+func _input(event):
+	if event.is_action_pressed("ui_cancel"):
+		pause_menu()
+
+func pause_menu():
+	if pause:
+		paused.hide()
+		Engine.time_scale = 1
+		pause = false
+	else:
+		paused.show()
+		Engine.time_scale = 0
+		pause = true

@@ -1,0 +1,22 @@
+[gd_resource type="Environment" load_steps=3 format=3 uid="uid://uts1dv4ktiw4"]
+
+[sub_resource type="Gradient" id="Gradient_6jdmb"]
+offsets = PackedFloat32Array(0, 0.492537, 1)
+colors = PackedColorArray(9.14484e-07, 0.3868, 1.92523e-07, 1, 0.0197222, 0.259018, 0.194579, 1, 0.0208092, 0.228477, 0.205304, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_2govb"]
+gradient = SubResource("Gradient_6jdmb")
+fill_to = Vector2(0, 1)
+
+[resource]
+background_mode = 3
+ambient_light_color = Color(0.0392157, 0.101961, 0.0823529, 0.905882)
+ambient_light_energy = 2.74
+tonemap_exposure = 0.1
+glow_enabled = true
+glow_normalized = true
+glow_intensity = 2.0
+glow_bloom = 0.15
+glow_blend_mode = 0
+glow_map = SubResource("GradientTexture2D_2govb")
+fog_light_color = Color(0.635294, 0.713726, 0.454902, 1)

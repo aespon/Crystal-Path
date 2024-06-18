@@ -18,14 +18,14 @@ func _process(delta):
 	if vaciado == true:
 		BarraEnergia.resetEnergy()
 		vaciado = false
-	
+	look_at(get_global_mouse_position())
 func daño_ctrl():
-	if BarraEnergia.currentEnergy >= energyPerShot and Input.is_action_just_pressed("shoot") and (vaciado != true):
+	if BarraEnergia.currentEnergy >= energyPerShot and Input.is_action_just_pressed("shoot") and Engine.time_scale != 0 and(vaciado != true):
 		print (BarraEnergia.currentEnergy)
 		look_at(get_global_mouse_position())
 		disparar()
 		BarraEnergia.decreaseEnergy(energyPerShot)
-	elif BarraEnergia.currentEnergy == 0 and Input.is_action_just_pressed("shoot"):
+	elif BarraEnergia.currentEnergy == 0 and Input.is_action_just_pressed("shoot") and Engine.time_scale != 0:
 		vaciado=true
 		print ("no hay mas plata")
 

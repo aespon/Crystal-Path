@@ -1,7 +1,7 @@
 extends AudioStreamPlayer
 
 var level_music = preload("res://Art/Music/Crystal Caves v1_2.mp3")
-var volume = -1
+var volume = -5
 
 func _play_music(music: AudioStream, volume):
 	if stream == music:

@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://dkmu5slemhhr5"]
+
+[ext_resource type="Script" path="res://Scenes/Base/rooms/door/Doors.gd" id="1_fcu55"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_el7wk"]
+size = Vector2(20, 13)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ujahg"]
+size = Vector2(20, 49.5)
+
+[node name="Doors" type="Node2D"]
+script = ExtResource("1_fcu55")
+
+[node name="Player_Detect" type="Area2D" parent="."]
+
+[node name="Player_Collission" type="CollisionShape2D" parent="Player_Detect"]
+position = Vector2(0, 3.5)
+shape = SubResource("RectangleShape2D_el7wk")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+collision_layer = 3
+collision_mask = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(0, -29.75)
+shape = SubResource("RectangleShape2D_ujahg")
+
+[connection signal="body_entered" from="Player_Detect" to="." method="_on_player_detect_body_entered"]
