@@ -51,12 +51,13 @@ func generate_level():
 			rooms1.position = Vector2(location*100)
 			add_child(rooms1)
 			a = a - 1
-			print(a)
+			
 		else:
 			if (a == 27):
 				var boss1 = boss.instantiate()
 				boss1.position = Vector2(location*100)
 				add_child(boss1)
+				print("boss")
 				a = a - 1
 			else:
 				var r = randi_range(0, 2)
@@ -64,7 +65,7 @@ func generate_level():
 				rooms.position = Vector2(location*100)
 				add_child(rooms)
 				a = a - 1
-				print(a)
+				
 
 
 func reload_level():

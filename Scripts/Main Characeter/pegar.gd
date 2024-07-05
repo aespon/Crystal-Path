@@ -4,12 +4,9 @@ var daño= 10
 var Enemigo
 @onready var golpear 
 
-func _on_area_entered(area):
-	var mob = area.owner
-	if area.owner == Enemigo:
-		print ("enemigo")
 
-func _on_body_entered(body):
+
+func _on_body_entered(_body):
 	pass
 
 func action_is_press():

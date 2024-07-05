@@ -13,19 +13,21 @@ func _ready():
 	BarraEnergia.resetEnergy()
 	vaciado = false
 
-func _process(delta):
+func _process(_delta):
 	daño_ctrl()
-	if vaciado == true:
-		BarraEnergia.resetEnergy()
+	if vaciado == true and Input.is_action_just_pressed("recharge"):
+		await get_tree().create_timer(0.5).timeout
+		BarraEnergia.decreaseEnergy(-200)
 		vaciado = false
 	look_at(get_global_mouse_position())
+
 func daño_ctrl():
 	if BarraEnergia.currentEnergy >= energyPerShot and Input.is_action_just_pressed("shoot") and Engine.time_scale != 0 and(vaciado != true):
 		print (BarraEnergia.currentEnergy)
 		look_at(get_global_mouse_position())
 		disparar()
 		BarraEnergia.decreaseEnergy(energyPerShot)
-	elif BarraEnergia.currentEnergy == 0 and Input.is_action_just_pressed("shoot") and Engine.time_scale != 0:
+	elif BarraEnergia.currentEnergy <= energyPerShot and Input.is_action_just_pressed("shoot") and Engine.time_scale != 0:
 		vaciado=true
 		print ("no hay mas plata")
 
@@ -33,8 +35,8 @@ func disparar():
 	var newbullet = bala.instantiate()
 	get_tree().root.add_child(newbullet)
 	newbullet.global_transform= $spawnbullet.global_transform
-
-
+	print(newbullet.name)
+	Global.bulletname = newbullet.name
 
 
 

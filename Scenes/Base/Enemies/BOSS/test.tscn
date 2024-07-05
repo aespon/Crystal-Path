@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://b6mtoinq6klgh"]
+
+[ext_resource type="PackedScene" uid="uid://dibww7gh7vbcu" path="res://Scenes/Base/rooms/proof_boss.tscn" id="1_kt78y"]
+[ext_resource type="PackedScene" uid="uid://d4a37hvw7atn3" path="res://Scenes/Base/Player/Personaje.tscn" id="3_kkg66"]
+
+[node name="test" type="Node2D"]
+
+[node name="proofRoom" parent="." instance=ExtResource("1_kt78y")]
+
+[node name="player" parent="." instance=ExtResource("3_kkg66")]
+position = Vector2(53, 87)

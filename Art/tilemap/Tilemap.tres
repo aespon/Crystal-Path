@@ -1,0 +1,12 @@
+[gd_resource type="CanvasTexture" load_steps=4 format=3 uid="uid://xyyxn300kgod"]
+
+[ext_resource type="Texture2D" uid="uid://c3y460cn7amqj" path="res://Art/Illustration3.png" id="1_3nmsh"]
+[ext_resource type="Texture2D" uid="uid://cv5x8gsm8ln8g" path="res://Art/tilemap/Illustration3_d.png" id="2_hxw3e"]
+[ext_resource type="Texture2D" uid="uid://bfc4pygw7fvqs" path="res://Art/tilemap/Illustration3_s.png" id="3_a2c4c"]
+
+[resource]
+diffuse_texture = ExtResource("1_3nmsh")
+normal_texture = ExtResource("2_hxw3e")
+specular_texture = ExtResource("3_a2c4c")
+specular_color = Color(0.611765, 0.721569, 0.262745, 1)
+specular_shininess = 0.1

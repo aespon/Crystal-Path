@@ -1,3 +1,9 @@
+res://Scripts/Enemies/FSM/BOSSDOGS/DOG2
+res://Scenes/Base/Enemies/BOSS
+res://Art/tilemap
+res://Scripts/Enemies/FSM/BOSSDOGS/DOG1
+res://Art/BODD
+res://Scripts/Enemies/FSM
 res://Scenes/Base/rooms/door
 res://Scenes/Base/ui
 res://Data
@@ -5,7 +11,6 @@ res://
 res://Scripts/Global
 res://Scripts
 D:/Programacion/Godot/Prototypes/Rougelike/Scripts
-res://PersonajePrincipal
 res://Scenes
 res://Scenes/Base/rooms
 res://Scenes/Base

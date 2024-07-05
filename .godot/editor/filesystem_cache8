@@ -1,10 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1718742985
+::res://::1720118502
 icon.svg::CompressedTexture2D::1148396242033866007::1713293136::1713293150::1::::<><>::
 MainMenu.gd::GDScript::-1::1717432475::0::1::::<>Control<>::
-MainMenu.tscn::PackedScene::5062227961990282940::1718742799::0::1::::<><>::res://MainMenu.gd<>uid://b6qm7gachmaet::::res://Art/Crystal Path2.svg<>uid://cq66odmn57ejg::::res://Art/PLAY.png<>uid://cid8ytggowuqe::::res://Art/PLAYHOVER.png<>uid://co0m0wrjh8fph::::res://Art/Quit.png<>uid://e1e5jdmmd76l::::res://Art/QuitHover.png
+MainMenu.tscn::PackedScene::5062227961990282940::1720039686::0::1::::<><>::res://MainMenu.gd<>uid://b6qm7gachmaet::::res://Art/Crystal Path2.svg<>uid://cq66odmn57ejg::::res://Art/PLAY.png<>uid://cid8ytggowuqe::::res://Art/PLAYHOVER.png<>uid://co0m0wrjh8fph::::res://Art/Quit.png<>uid://e1e5jdmmd76l::::res://Art/QuitHover.png
 README.md::TextFile::-1::1715038268::0::1::::<><>::
-::res://Art/::1718239549
+::res://Art/::1719865899
 bala.png::CompressedTexture2D::4438819822731543687::1714952906::1716840004::1::::<><>::
 Crystal Path2.svg::CompressedTexture2D::4596090945096013483::1717428400::1717428409::1::::<><>::
 GOLEM.png::CompressedTexture2D::2563427021944587078::1713295070::1713295070::1::::<><>::
@@ -25,68 +25,97 @@ RESET.png::CompressedTexture2D::4841966991992886021::1718141830::1718142210::1::
 RESETHOVER.png::CompressedTexture2D::5310838172637634111::1718141854::1718142210::1::::<><>::
 sprite-limonada-descartable-1500cc.jpg::CompressedTexture2D::2006041246949827634::1715947132::1716840006::1::::<><>::
 tileset_legacy.png::CompressedTexture2D::3528543832852616140::1716230705::1716230709::1::::<><>::
+::res://Art/BODD/::1719959800
+d2Sheet.png::CompressedTexture2D::41605893833295528::1719959800::1719959800::1::::<><>::
+perseguidor-AnimationSheet.png::CompressedTexture2D::6539534800133239048::1719804027::1719804027::1::::<><>::
 ::res://Art/Music/::1718060562
 Crystal Caves v1_2.mp3::AudioStreamMP3::8395642064280804251::1717431530::1717431532::1::::<><>::
 ::res://Art/Music/VFX/::1718060567
 ::res://Art/Music/VFX/UI/::1718060573
 Cloud Click.wav::AudioStreamWAV::4769840684356400016::1718060573::1718060573::1::::<><>::
 Metal Click.wav::AudioStreamWAV::721059899599522428::1718060573::1718060573::1::::<><>::
-::res://Data/::1718661552
+::res://Art/tilemap/::1719943827
+1000_F_410818284_HrAdXXyV6bogIPaEsSVgYT5XtjZWdBRk.jpg::CompressedTexture2D::2452407338056277696::1719941742::1719941744::1::::<><>::
+Illustration3_d.png::CompressedTexture2D::6310194181975518724::1719943734::1719943738::1::::<><>::
+Illustration3_n.png::CompressedTexture2D::3744056721408840071::1719873453::1719873453::1::::<><>::
+Illustration3_o.png::CompressedTexture2D::7519055230861042396::1719868540::1719866977::1::::<><>::
+Illustration3_p.png::CompressedTexture2D::6534505554580241106::1719868540::1719866759::1::::<><>::
+Illustration3_s.png::CompressedTexture2D::2743282507961976814::1719868540::1719865043::1::::<><>::
+Tilemap.tres::CanvasTexture::1665387478086157175::1719943392::0::1::::<><>::uid://c3y460cn7amqj::::res://Art/Illustration3.png<>uid://cv5x8gsm8ln8g::::res://Art/tilemap/Illustration3_d.png<>uid://bfc4pygw7fvqs::::res://Art/tilemap/Illustration3_s.png
+tilemap_map.tres::TileSet::7708193331983697534::1719943827::0::1::::<><>::uid://xyyxn300kgod::::res://Art/tilemap/Tilemap.tres
+::res://Data/::1720027906
 eNVIROMRNT.tres::Environment::1444139577941797697::1718055399::0::1::::<><>::
-proof_room.tres::TileSet::703209153196018378::1718661552::0::1::::<><>::uid://c3y460cn7amqj::::res://Art/Illustration3.png
+proof_room.tres::TileSet::703209153196018378::1720027906::0::1::::<><>::uid://c3y460cn7amqj::::res://Art/Illustration3.png
 tilemaap.tres::TileSet::1091627754152673101::1718053761::0::1::::<><>::uid://bqjiupho8d325::::res://Art/tileset_legacy.png
 ::res://Data/ENEMIGOS/::1715038346
 ::res://Scenes/::1716833526
-::res://Scenes/Base/::1718742799
-AudioPlayer.tscn::PackedScene::2295158828536075442::1718742799::0::1::::<><>::uid://dru5865p6yj8f::::res://Art/Music/Crystal Caves v1_2.mp3<>res://Scripts/Global/AudioPlayer.gd
+::res://Scenes/Base/::1720039686
+AudioPlayer.tscn::PackedScene::2295158828536075442::1720039686::0::1::::<><>::uid://dru5865p6yj8f::::res://Art/Music/Crystal Caves v1_2.mp3<>res://Scripts/Global/AudioPlayer.gd
 level_generator.tscn::PackedScene::5703543233304040363::1717431749::0::1::::<><>::res://Scripts/GenLevel/Level.gd<>res://Data/Map.tres
-Map.tscn::PackedScene::3550539018018586512::1718742799::0::1::::<><>::res://Scripts/GenLevel/Level.gd
+Map.tscn::PackedScene::3550539018018586512::1720039685::0::1::::<><>::res://Scripts/GenLevel/Level.gd
 test_escena.tscn::PackedScene::2633847416115950431::1716833521::0::1::::<><>::uid://dcgigqq0w32mm::::res://Scenes/Base/Player/player.tscn<>uid://cdygh2lqcw11w::::res://Scenes/Base/rooms/room_4.tscn
-::res://Scenes/Base/Enemies/::1718742799
-bullets.tscn::PackedScene::7021190779515470240::1717432846::0::1::::<><>::res://Scripts/Enemies/bullets.gd<>uid://qmj6ht1057ep::::res://icon.svg
-enemy.tscn::PackedScene::3091192297828164427::1718742799::0::1::::<><>::res://Scripts/Enemies/enemy.gd<>uid://qmj6ht1057ep::::res://icon.svg
-turret.tscn::PackedScene::8147732474697657006::1717432846::0::1::::<><>::res://Scripts/Enemies/Turret.gd<>uid://c7bd8sgybcou7::::res://Scenes/Base/Enemies/bullets.tscn<>uid://qmj6ht1057ep::::res://icon.svg
-::res://Scenes/Base/Player/::1718742799
-Bala.tscn::PackedScene::8108357160931931770::1717432846::0::1::::<><>::res://Scripts/Main Characeter/bala.gd<>uid://b4igyjlrm7lnb::::res://Art/bala.png
+::res://Scenes/Base/Enemies/::1720039686
+bullets.tscn::PackedScene::7021190779515470240::1719945564::0::1::::<><>::res://Scripts/Enemies/bullets.gd<>uid://qmj6ht1057ep::::res://icon.svg
+enemy.tscn::PackedScene::3091192297828164427::1720039686::0::1::::<><>::res://Scripts/Enemies/enemy.gd<>uid://qmj6ht1057ep::::res://icon.svg
+turret.tscn::PackedScene::8147732474697657006::1719945564::0::1::::<><>::res://Scripts/Enemies/Turret.gd<>uid://c7bd8sgybcou7::::res://Scenes/Base/Enemies/bullets.tscn<>uid://qmj6ht1057ep::::res://icon.svg
+::res://Scenes/Base/Enemies/BOSS/::1720048953
+AttackD2.gd::GDScript::-1::1720048953::0::1::::<>State<>::
+Dog1.tscn::PackedScene::9045890632534062903::1720039686::0::1::::<><>::res://Scripts/Enemies/FSM/BOSSDOGS/DOG1/Dog1.gd<>res://Scripts/Enemies/FSM/FSM.gd<>uid://c0f2ghhvt5h8k::::res://Art/BODD/perseguidor-AnimationSheet.png<>res://Scripts/Enemies/FSM/BOSSDOGS/DOG1/Idle_dog1.gd<>res://Scripts/Enemies/FSM/BOSSDOGS/DOG1/Follow.gd<>res://Scripts/Enemies/FSM/BOSSDOGS/DOG1/AttackD1.gd
+dog_2.tscn::PackedScene::613096670122224631::1720039686::0::1::::<><>::res://Scripts/Enemies/FSM/FSM.gd<>uid://ufii5t7brdw::::res://Art/BODD/d2Sheet.png<>res://Scripts/Enemies/FSM/BOSSDOGS/DOG2/dog_2.gd<>res://Scripts/Enemies/FSM/State.gd<>res://Scenes/Base/Enemies/BOSS/Idle_D2.gd<>res://Scenes/Base/Enemies/BOSS/AttackD2.gd
+Idle_D2.gd::GDScript::-1::1720030195::0::1::::<>State<>::
+test.tscn::PackedScene::4588226434536111359::1720039686::0::1::::<><>::uid://dibww7gh7vbcu::::res://Scenes/Base/rooms/proof_boss.tscn<>uid://iy8u3e64wbid::::res://Scenes/Base/Enemies/BOSS/dog_2.tscn<>uid://d4a37hvw7atn3::::res://Scenes/Base/Player/Personaje.tscn
+::res://Scenes/Base/Player/::1720039686
+Bala.tscn::PackedScene::8108357160931931770::1720039686::0::1::::<><>::res://Scripts/Main Characeter/bala.gd<>uid://b4igyjlrm7lnb::::res://Art/bala.png
 Barras.tscn::PackedScene::6843515462031986292::1717432846::0::1::::<><>::res://Scripts/Main Characeter/BarraVida.gd<>res://Scripts/Main Characeter/energia.gd
-Personaje.tscn::PackedScene::9196496138931368226::1718742799::0::1::::<><>::res://Scripts/Main Characeter/player.gd<>uid://qmj6ht1057ep::::res://icon.svg<>res://Scripts/Main Characeter/disparo.gd<>uid://cjnc78725y025::::res://Scenes/Base/ui/paused.tscn<>res://Scripts/Main Characeter/pegar.gd<>uid://c4rbx18kxm8qa::::res://Scenes/Base/Player/Barras.tscn
+Personaje.tscn::PackedScene::9196496138931368226::1720039686::0::1::::<><>::res://Scripts/Main Characeter/player.gd<>uid://qmj6ht1057ep::::res://icon.svg<>res://Scripts/Main Characeter/disparo.gd<>uid://cjnc78725y025::::res://Scenes/Base/ui/paused.tscn<>res://Scripts/Main Characeter/pegar.gd<>uid://c4rbx18kxm8qa::::res://Scenes/Base/Player/Barras.tscn
 player.tscn::PackedScene::7312523321842177776::1717431765::0::1::::<><>::res://Scripts/Main Characeter/Golem.gd<>uid://qmj6ht1057ep::::res://icon.svg
-::res://Scenes/Base/rooms/::1718740007
-boss.tscn::PackedScene::8384427514395833083::1717432846::0::1::::<><>::uid://ps17j07gals4::::res://Data/tilemaap.tres<>uid://bkbnqri0ayr6j::::res://Scenes/Base/Enemies/enemy.tscn
-proof_boss.tscn::PackedScene::7724213929622060388::1718740007::0::1::::<><>::uid://kav0tlebkdp7::::res://Data/proof_room.tres<>uid://bkbnqri0ayr6j::::res://Scenes/Base/Enemies/enemy.tscn<>uid://dkmu5slemhhr5::::res://Scenes/Base/rooms/door/door.tscn
+::res://Scenes/Base/rooms/::1720039686
+boss.tscn::PackedScene::8384427514395833083::1719804049::0::1::::<><>::uid://ps17j07gals4::::res://Data/tilemaap.tres<>uid://bkbnqri0ayr6j::::res://Scenes/Base/Enemies/enemy.tscn
+proof_boss.tscn::PackedScene::7724213929622060388::1720039686::0::1::::<><>::uid://kav0tlebkdp7::::res://Data/proof_room.tres<>uid://d145q5v5gf7uh::::res://Scenes/Base/Enemies/BOSS/Dog1.tscn<>uid://dkmu5slemhhr5::::res://Scenes/Base/rooms/door/door.tscn<>uid://iy8u3e64wbid::::res://Scenes/Base/Enemies/BOSS/dog_2.tscn
 proof_room1.tscn::PackedScene::837235250674250004::1718740007::0::1::::<><>::uid://kav0tlebkdp7::::res://Data/proof_room.tres<>uid://dkmu5slemhhr5::::res://Scenes/Base/rooms/door/door.tscn
-proof_room2.tscn::PackedScene::8439397669854318393::1718740007::0::1::::<><>::uid://kav0tlebkdp7::::res://Data/proof_room.tres<>uid://doc270023clpu::::res://Scenes/Base/Enemies/turret.tscn<>uid://dkmu5slemhhr5::::res://Scenes/Base/rooms/door/door.tscn
-proof_room3.tscn::PackedScene::5083562742181220879::1718740007::0::1::::<><>::uid://kav0tlebkdp7::::res://Data/proof_room.tres<>uid://bkbnqri0ayr6j::::res://Scenes/Base/Enemies/enemy.tscn<>uid://dkmu5slemhhr5::::res://Scenes/Base/rooms/door/door.tscn
-proof_room.tscn::PackedScene::954618518679866861::1718740007::0::1::::<><>::uid://kav0tlebkdp7::::res://Data/proof_room.tres<>uid://dkmu5slemhhr5::::res://Scenes/Base/rooms/door/door.tscn
+proof_room2.tscn::PackedScene::8439397669854318393::1719945564::0::1::::<><>::uid://kav0tlebkdp7::::res://Data/proof_room.tres<>uid://doc270023clpu::::res://Scenes/Base/Enemies/turret.tscn<>uid://dkmu5slemhhr5::::res://Scenes/Base/rooms/door/door.tscn
+proof_room3.tscn::PackedScene::5083562742181220879::1719945564::0::1::::<><>::uid://kav0tlebkdp7::::res://Data/proof_room.tres<>uid://d145q5v5gf7uh::::res://Scenes/Base/Enemies/BOSS/Dog1.tscn<>uid://dkmu5slemhhr5::::res://Scenes/Base/rooms/door/door.tscn
+proof_room.tscn::PackedScene::954618518679866861::1719945564::0::1::::<><>::uid://kav0tlebkdp7::::res://Data/proof_room.tres<>uid://dkmu5slemhhr5::::res://Scenes/Base/rooms/door/door.tscn
 room_1.tscn::PackedScene::2474905799777293688::1716504550::0::1::::<><>::uid://ps17j07gals4::::res://Data/tilemaap.tres
 room_2.tscn::PackedScene::1910937311475646961::1716504550::0::1::::<><>::uid://ps17j07gals4::::res://Data/tilemaap.tres
-room_3.tscn::PackedScene::8145486097536528539::1717020644::0::1::::<><>::uid://ps17j07gals4::::res://Data/tilemaap.tres<>uid://bkbnqri0ayr6j::::res://Scenes/Base/Enemies/enemy.tscn
+room_3.tscn::PackedScene::8145486097536528539::1719804049::0::1::::<><>::uid://ps17j07gals4::::res://Data/tilemaap.tres<>uid://bkbnqri0ayr6j::::res://Scenes/Base/Enemies/enemy.tscn
 room_4.tscn::PackedScene::5033331202765504514::1716504551::0::1::::<><>::uid://ps17j07gals4::::res://Data/tilemaap.tres<>uid://doc270023clpu::::res://Scenes/Base/Enemies/turret.tscn
-::res://Scenes/Base/rooms/door/::1718740007
+::res://Scenes/Base/rooms/door/::1720048953
 door.tscn::PackedScene::7887191896792033204::1718740007::0::1::::<><>::res://Scenes/Base/rooms/door/Doors.gd
-Doors.gd::GDScript::-1::1718739887::0::1::::<>Node2D<>::
+Doors.gd::GDScript::-1::1720048953::0::1::::<>Node2D<>::
 hallway.tscn::PackedScene::8960267222633722752::1718736199::0::1::::<><>::uid://kav0tlebkdp7::::res://Data/proof_room.tres
 test_proof.tscn::PackedScene::1739687204317453411::1718739921::0::1::::<><>::uid://dibww7gh7vbcu::::res://Scenes/Base/rooms/proof_boss.tscn<>uid://dsidv8qnweidt::::res://Scenes/Base/rooms/proof_room2.tscn
-::res://Scenes/Base/ui/::1718742799
+::res://Scenes/Base/ui/::1720039686
 Paused.gd::GDScript::-1::1718742044::0::1::::<>CanvasLayer<>::
-paused.tscn::PackedScene::5431558234293875992::1718742799::0::1::::<><>::res://Scenes/Base/ui/Paused.gd<>uid://b4igyjlrm7lnb::::res://Art/bala.png<>uid://dfj5f8a2rbaox::::res://Art/OFF.png<>uid://comuukry4sx88::::res://Art/On.png<>uid://ca8qqvhhkou1r::::res://Art/RESET.png<>uid://chwuy1p8ghj2n::::res://Art/RESETHOVER.png<>uid://cqookmlbpghx8::::res://Art/MENU.png<>uid://dephpjg5ikqwe::::res://Art/MENUHOVER.png
+paused.tscn::PackedScene::5431558234293875992::1720039686::0::1::::<><>::res://Scenes/Base/ui/Paused.gd<>uid://b4igyjlrm7lnb::::res://Art/bala.png<>uid://dfj5f8a2rbaox::::res://Art/OFF.png<>uid://comuukry4sx88::::res://Art/On.png<>uid://ca8qqvhhkou1r::::res://Art/RESET.png<>uid://chwuy1p8ghj2n::::res://Art/RESETHOVER.png<>uid://cqookmlbpghx8::::res://Art/MENU.png<>uid://dephpjg5ikqwe::::res://Art/MENUHOVER.png
 ::res://Scripts/::1717431765
-::res://Scripts/Enemies/::1718237261
-bullets.gd::GDScript::-1::1717021796::0::1::::<>Area2D<>::
+::res://Scripts/Enemies/::1719858265
+bullets.gd::GDScript::-1::1719858265::0::1::::<>Area2D<>::
 enemy.gd::GDScript::-1::1717019123::0::1::::Enemy<>CharacterBody2D<>::
-Turret.gd::GDScript::-1::1718237261::0::1::::<>Node2D<>::
-::res://Scripts/GenLevel/::1718741847
-Level.gd::GDScript::-1::1718741847::0::1::::<>Node2D<>::
+Turret.gd::GDScript::-1::1719805398::0::1::::<>Node2D<>::
+::res://Scripts/Enemies/FSM/::1720029341
+FSM.gd::GDScript::-1::1720029341::0::1::::FiniteStateMachine<>Node2D<>::
+State.gd::GDScript::-1::1719963420::0::1::::State<>Node2D<>::
+::res://Scripts/Enemies/FSM/BOSSDOGS/::1719963933
+::res://Scripts/Enemies/FSM/BOSSDOGS/DOG1/::1720048953
+AttackD1.gd::GDScript::-1::1719864091::0::1::::AttackD1<>State<>::
+Dog1.gd::GDScript::-1::1720048953::0::1::::Dog1<>CharacterBody2D<>::
+Follow.gd::GDScript::-1::1720028272::0::1::::FollowState<>State<>::
+Idle_dog1.gd::GDScript::-1::1719977240::0::1::::IdleState<>State<>::
+::res://Scripts/Enemies/FSM/BOSSDOGS/DOG2/::1720048953
+dog_2.gd::GDScript::-1::1720048953::0::1::::Dog2<>CharacterBody2D<>::
+::res://Scripts/GenLevel/::1719805030
+Level.gd::GDScript::-1::1719805030::0::1::::<>Node2D<>::
 Walker.gd::GDScript::-1::1714946842::0::1::::Walker<>Node<>::
-::res://Scripts/Global/::1718735445
+::res://Scripts/Global/::1720039585
 AudioPlayer.gd::GDScript::-1::1718735445::0::1::::<>AudioStreamPlayer<>::
-Global.gd::GDScript::-1::1717022141::0::1::::<>Node<>::
-::res://Scripts/Main Characeter/::1718742665
+Global.gd::GDScript::-1::1720039585::0::1::::<>Node<>::
+::res://Scripts/Main Characeter/::1720048953
 ataqueFisico.gd::GDScript::-1::1715125726::0::1::::<>RefCounted<>::
-bala.gd::GDScript::-1::1717019569::0::1::::<>CharacterBody2D<>::
-BarraVida.gd::GDScript::-1::1717021775::0::1::::<>ProgressBar<>::
-disparo.gd::GDScript::-1::1718742665::0::1::::<>Node2D<>::
+bala.gd::GDScript::-1::1719860687::0::1::::<>CharacterBody2D<>::
+BarraVida.gd::GDScript::-1::1719857278::0::1::::<>ProgressBar<>::
+disparo.gd::GDScript::-1::1720048953::0::1::::<>Node2D<>::
 energia.gd::GDScript::-1::1716320238::0::1::::<>ProgressBar<>::
 Golem.gd::GDScript::-1::1715110472::0::1::::<>CharacterBody2D<>::
-pegar.gd::GDScript::-1::1717017620::0::1::::<>Area2D<>::
+pegar.gd::GDScript::-1::1720048953::0::1::::<>Area2D<>::
 player.gd::GDScript::-1::1718665566::0::1::::<>CharacterBody2D<>::

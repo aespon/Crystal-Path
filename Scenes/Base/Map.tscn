@@ -1,6 +1,14 @@
-[gd_scene load_steps=2 format=3 uid="uid://bqt54g4w8moom"]
+[gd_scene load_steps=3 format=3 uid="uid://bqt54g4w8moom"]
 
 [ext_resource type="Script" path="res://Scripts/GenLevel/Level.gd" id="1_b17r2"]
+
+[sub_resource type="Environment" id="Environment_gjbf2"]
+background_mode = 3
+glow_enabled = true
+glow_normalized = true
+glow_intensity = 2.39
+glow_strength = 1.26
+glow_hdr_scale = 1.25
 
 [node name="Game" type="Node2D"]
 metadata/_edit_horizontal_guides_ = [-192.0]
@@ -12,3 +20,6 @@ script = ExtResource("1_b17r2")
 
 [node name="CanvasModulate" type="CanvasModulate" parent="VFX"]
 color = Color(0.00392157, 0.0117647, 0.00784314, 1)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="VFX"]
+environment = SubResource("Environment_gjbf2")

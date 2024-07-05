@@ -7,13 +7,13 @@
 [ext_resource type="Script" path="res://Scripts/Main Characeter/pegar.gd" id="5_oxacj"]
 [ext_resource type="PackedScene" uid="uid://c4rbx18kxm8qa" path="res://Scenes/Base/Player/Barras.tscn" id="5_ta68t"]
 
-[sub_resource type="Gradient" id="Gradient_hvv61"]
+[sub_resource type="Gradient" id="Gradient_sdxpk"]
 interpolation_mode = 2
 offsets = PackedFloat32Array(0, 0.213115, 0.418033, 0.704918, 1)
 colors = PackedColorArray(0.856067, 0.856067, 0.856067, 1, 0.391836, 0.391836, 0.391836, 1, 0.180119, 0.180119, 0.180119, 1, 0.0257326, 0.0257326, 0.0257326, 1, 0, 0, 0, 1)
 
 [sub_resource type="GradientTexture2D" id="GradientTexture2D_xx5kg"]
-gradient = SubResource("Gradient_hvv61")
+gradient = SubResource("Gradient_sdxpk")
 fill = 1
 fill_from = Vector2(0.5, 0.5)
 fill_to = Vector2(0.761905, 0.285714)
@@ -64,20 +64,22 @@ wait_time = 3.0
 
 [node name="VFX" type="Node2D" parent="GUN"]
 z_index = 2
-position = Vector2(247.525, 0)
+position = Vector2(49.505, 0)
 scale = Vector2(1.9802, 1.9802)
 
 [node name="PointLight2D" type="PointLight2D" parent="GUN/VFX"]
-position = Vector2(0.00012207, 5.55553)
-scale = Vector2(16.0985, 15.7302)
+position = Vector2(24.9999, -25.0001)
+scale = Vector2(-34.5525, 31.6043)
 color = Color(0.364706, 1, 0.47451, 1)
-energy = 6.7
+energy = 7.11
 range_z_max = 2
+range_item_cull_mask = 3
 shadow_enabled = true
 shadow_filter = 1
-shadow_filter_smooth = 10.0
+shadow_filter_smooth = 23.5
+shadow_item_cull_mask = 3
 texture = SubResource("GradientTexture2D_xx5kg")
-texture_scale = 1.65
+texture_scale = 1.5
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["player"]]
 light_mask = 5
@@ -93,7 +95,7 @@ shape = SubResource("CircleShape2D_4rnel")
 one_way_collision_margin = 128.0
 
 [node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(11.515, 11.515)
+zoom = Vector2(15.32, 15.32)
 
 [node name="Paused" parent="Camera2D" instance=ExtResource("5_josm6")]
 visible = false
@@ -116,7 +118,8 @@ scale = Vector2(0.655, 0.655)
 [node name="PointLight2D" type="PointLight2D" parent="."]
 light_mask = 7
 visibility_layer = 7
-scale = Vector2(1.30719, 1.30719)
+position = Vector2(-6.10352e-05, 24.9999)
+scale = Vector2(6.1683, 6.35212)
 energy = 0.6
 range_item_cull_mask = 3
 shadow_enabled = true
@@ -125,6 +128,10 @@ texture = SubResource("GradientTexture2D_ovf4f")
 texture_scale = 4.25
 
 [node name="Die" type="Area2D" parent="."]
+light_mask = 3
+visibility_layer = 3
+collision_layer = 2
+collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Die"]
 position = Vector2(1.12587e-05, 1.1762e-05)
